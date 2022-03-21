@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446267cf91d70af47b23266fd9c61cb5, type: 3}
+  m_Name: EnemyData 1
+  m_EditorClassIdentifier: 
+  timeBetweenWaves: 6
+  uints:
+  - enamy_name: Wave 1
+    health: 150
+    IsGrounded: 1
+    maxSpawn: 16
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 4888902647032862566, guid: bda2ca0b1760d38488ce88f8abd7a918,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: d5c68f7afd1c8f448b0eb1c5a3f51780, type: 3}
+  - enamy_name: Wave 2
+    health: 180
+    IsGrounded: 1
+    maxSpawn: 16
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 583387411800539419, guid: d985571a9ac168d478ccb8d24b89263a,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: e1561d3f19f8155499cf2dfd9f9f204e, type: 3}
+  - enamy_name: Wave 3
+    health: 200
+    IsGrounded: 1
+    maxSpawn: 16
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 2491433405907217581, guid: 748aeb1bb0fd0a04f9242c118dcfdb17,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: a3a8b7f79a177b84882ad65604332f8a, type: 3}
+  - enamy_name: Wave 4
+    health: 220
+    IsGrounded: 1
+    maxSpawn: 16
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 3558291236862513963, guid: 8eb0758d226c36d45b6365f7888a2fff,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: f343428e3827d4347ac43f9d07655847, type: 3}
+  - enamy_name: Wave 5
+    health: 250
+    IsGrounded: 0
+    maxSpawn: 10
+    spawnInterval: 0.5
+    movement_speed: 0.35
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 8860500278237906300, guid: 360f762e6e8634441a1bdc4305250bf2,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: 23fa12852f09dad46b0eab817f3ea09e, type: 3}
+  - enamy_name: Wave 6
+    health: 300
+    IsGrounded: 1
+    maxSpawn: 16
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 6372133276545713942, guid: 08fc4ca49d1418c44886cfd37a105c06,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: 398d5368c64891841b69bf47edf30717, type: 3}
+  - enamy_name: Wave 7
+    health: 320
+    IsGrounded: 1
+    maxSpawn: 16
+    spawnInterval: 0.4
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 5576611060600168293, guid: e2a9fdb3030f8244f8fe6fbbe1f81a61,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: e301d5ab8a3c2884f9cf7a99267e8164, type: 3}
+  - enamy_name: Wave 8
+    health: 350
+    IsGrounded: 1
+    maxSpawn: 24
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 6719912484336276165, guid: 4ecd4e519509cd54ab64098edb363da2,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: 09dee1da160814648b42978019d35773, type: 3}
+  - enamy_name: Wave 9
+    health: 380
+    IsGrounded: 1
+    maxSpawn: 24
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 5465100876347844353, guid: e85b2a6f49221854bba68313eecf6827,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: 2d8f78fd7a0f0b54b850f80a7fbd3e0c, type: 3}
+  - enamy_name: Wave 10
+    health: 250
+    IsGrounded: 0
+    maxSpawn: 10
+    spawnInterval: 3
+    movement_speed: 0.5
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 5298583074714492059, guid: 7706db8cfa51dc0429a807bb78aa1fd6,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: 0d3a90151ce80cb4aa1bb4fe53bd59a7, type: 3}
+  - enamy_name: Wave 11
+    health: 280
+    IsGrounded: 0
+    maxSpawn: 10
+    spawnInterval: 3
+    movement_speed: 0.5
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 4356376011804902683, guid: 3a68d9d867f18584ebd101e3b696a982,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: 0d3a90151ce80cb4aa1bb4fe53bd59a7, type: 3}
+  - enamy_name: Wave 12
+    health: 350
+    IsGrounded: 1
+    maxSpawn: 24
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 1172429986763697043, guid: 359876ae361558a4eba27852ea6b4d6e,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: fe17e40d65c5f3e43a7bb8ab5693c50b, type: 3}
+  - enamy_name: Wave 13
+    health: 380
+    IsGrounded: 1
+    maxSpawn: 16
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 5693560992760026527, guid: a381e11a7236b944e9888bfa13f1e019,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: a61e45cd5e1283841803e00e0f62f7f8, type: 3}
+  - enamy_name: Wave 14
+    health: 400
+    IsGrounded: 1
+    maxSpawn: 24
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 7713215885628972107, guid: d3449dee9848c6e41bebc10636d0c0f8,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: 0d771008c1f2ad54e8ebd5e430d1530e, type: 3}
+  - enamy_name: Wave 15
+    health: 200
+    IsGrounded: 0
+    maxSpawn: 10
+    spawnInterval: 3
+    movement_speed: 0.5
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 4025349573472892732, guid: bcb5d944f34c40a4496dad734f6716f4,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: 487f3568b2de977418af6e185c3bdaa4, type: 3}
+  - enamy_name: Wave 16
+    health: 250
+    IsGrounded: 1
+    maxSpawn: 16
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 5832559923100574013, guid: b4914a58532c117478aacdffa8aa6a89,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: 994d6b834629acf49a8a4a4ca032a60a, type: 3}
+  - enamy_name: Wave 17
+    health: 300
+    IsGrounded: 1
+    maxSpawn: 8
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 6315156690862765011, guid: 551b36dfb9ee4124097b751f719fd11b,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: 5244c6c214e3a6240bb6a32759d22354, type: 3}
+  - enamy_name: Wave 18
+    health: 300
+    IsGrounded: 1
+    maxSpawn: 24
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 6648614053079585637, guid: 8bbea7d74bab7964c91c240e9c2c1753,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: a145ce9d5e7d3564bb2d632fe8f9b57a, type: 3}
+  - enamy_name: Wave 19
+    health: 350
+    IsGrounded: 1
+    maxSpawn: 24
+    spawnInterval: 0.3
+    movement_speed: 0.4
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 241464544249230804, guid: 5c6c6a295e21db14da3b43a3397b85d4,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: a86eab30ded74f4428fb2bbe9d90c9bd, type: 3}
+  - enamy_name: Wave 20
+    health: 300
+    IsGrounded: 0
+    maxSpawn: 10
+    spawnInterval: 3
+    movement_speed: 0.5
+    waveTitle: Waves are coming !
+    wavePrefab: {fileID: 4571202908947053990, guid: 30b884f9a8503ae47aa7ffdb21927506,
+      type: 3}
+    wavesprite: {fileID: 21300000, guid: 3f7a3c1117f93874e8ba1fee3271d811, type: 3}
+  turrets:
+  - turretName: Turret 1
+    turretRange: 2
+    damage: 20
+    attackSpeed: 2
+    cost: 10
+    health: 50
+  - turretName: Turret 2
+    turretRange: 3
+    damage: 25
+    attackSpeed: 2
+    cost: 15
+    health: 50
+  - turretName: Turret 3
+    turretRange: 4
+    damage: 35
+    attackSpeed: 3
+    cost: 30
+    health: 50
+  - turretName: Turret 4
+    turretRange: 3
+    damage: 10
+    attackSpeed: 3
+    cost: 35
+    health: 50
+  - turretName: Turret 5
+    turretRange: 5
+    damage: 40
+    attackSpeed: 2
+    cost: 40
+    health: 50
+  - turretName: Turret 6
+    turretRange: 6
+    damage: 50
+    attackSpeed: 1
+    cost: 50
+    health: 50
+  - turretName: Balloon Mine
+    turretRange: 5
+    damage: 50
+    attackSpeed: 2
+    cost: 50
+    health: 50
+  - turretName: Mine
+    turretRange: 10
+    damage: 50
+    attackSpeed: 5
+    cost: 30
+    health: 50
+  - turretName: Wall
+    turretRange: 5
+    damage: 10
+    attackSpeed: 3
+    cost: 10
+    health: 50
+  gamedata:
+  - name: Player Life
+    value: 100
+  - name: Initial Coin
+    value: 200
+  - name: Starting Text
+    value: Game will start in
